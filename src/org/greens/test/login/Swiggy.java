@@ -6,7 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Swiggy {
-
 	public static void main(String[] args) throws InterruptedException {
 
 		System.setProperty("webdriver.chrome.driver",
@@ -22,5 +21,8 @@ public class Swiggy {
 
 		locat.sendKeys("chennai");
 
+			
+			System.out.println(locat.getAttribute("value"));
+			
 	}
 }
