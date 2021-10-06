@@ -24,6 +24,9 @@ public class Swiggy {
 				
 			locat.sendKeys("chennai");
 			
+			System.out.println(locat.getAttribute("value"));
+			
+			
 	}
 }
 
