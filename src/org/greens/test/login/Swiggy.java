@@ -10,9 +10,11 @@ public class Swiggy {
 	
 	public static void main(String[] args) {
 		
-	     System.setProperty("webdriver.chrome.driver","C:\\Users\\NAGA\\eclipse-workspace\\Selenium 2nd day\\driver\\chromedriver.exe");
+	     System.setProperty("webdriver.chrome.driver","C:\\Users\\NAGA\\OneDrive\\Desktop\\MY CODE\\Selenium-day-2\\driver\\chromedriver.exe");
 			
 			WebDriver driver = new ChromeDriver();
+			
+			driver.manage().window().maximize();
 			
 			driver.get("https://www.swiggy.com");
 			
